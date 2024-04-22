@@ -31,3 +31,54 @@ body {
     text-wrap: balance;
   }
 }
+
+.Bg{
+  background-image: url("../../public/images/tree.jpeg");
+  background-size: cover;
+  background-position: center center; 
+  background-repeat: no-repeat;
+  
+}
+.searchBar{
+  border-radius: 70px;
+  background: rgba(255, 255, 255, 0.25)100%;
+  border: none;
+  height: 30px;
+  width: 250px;
+}
+.wrapper{
+  position: absolute;
+    top: 35px;
+    left: 350px;
+}
+.boxBg {
+  background: rgba(236, 236, 236, 0.1)100%;
+  border-radius: 70px;
+  border: 15px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.boxBg2 {
+  margin-top:1%;
+  background: rgba(236, 236, 236, 0.25)100%;
+  border-radius: 20px;
+}
+
+.blur{ 
+  background-color: rgba(255, 255, 255, .2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 5% auto 5% auto;
+    border: rgba(255, 255, 255, .1) 15px solid;
+    border-radius: 80px;
+    padding: 75px;
+}
+  @media (max-width: 425px)  {
+    .wrapper{
+      position: absolute;
+        top: 35px;
+        left: 130px;
+    }
+  }
